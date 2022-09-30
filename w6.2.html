@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навчай - для України</title>
+    <link rel="stylesheet" href="css/w6.2.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        techuablue: '#0536FC',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+    </style>
+</head>
+<body class="tracking-[-.03em] text-base min-w-[280px]">
+    <main>
+        <section class="m-auto my-8 lg:my-28 pl-8 md:pl-24 lg:pl-0 flex items-end ">
+            <div class="basis-1/2 max-w-[27rem] mx-auto">
+                <h3 class="uppercase font-bold text-techuablue opacity-90">Програма</h3>
+                <h1 class="uppercase font-bold text-5xl	lg:text-[57px] lg:leading-[59px] pt-8 pb-16">Навчай<br>— для України</h2>
+                <span class="opacity-60">Освітньо-громадська організація.</span>
+            </div>
+            <a class="basis-1/2 flex place-content-end mr-8" href="#"><img src="img/Vector.svg" alt="Scrolling arrow"></a>
+        </section>
+        <nav>
+            <ul class="flex">
+                <li class="basis-1/2 text-center "><a class="block py-8 uppercase text-techuablue focus:bg-techuablue focus:text-white" href="#">Про нас</a></li>
+                <li class="basis-1/2 text-center "><a class="block py-8 uppercase text-techuablue focus:bg-techuablue focus:text-white" href="#">Наша діяльність</a></li>
+            </ul>
+        </nav>
+        <section class="background relative">
+            <div class="text bg-white absolute right-0 bottom-0 h-[43rem] pl-8 md:pl-28 md:pr-[17%]">
+                <h3 class="uppercase font-bold text-techuablue opacity-90 pt-28">Хто ми</h3>
+                <h2 class="uppercase font-bold text-4xl pt-8 pb-16 max-w-sm">Амбітна команда однодумців</h2>
+                <p class="opacity-60 max-w-xs">Команда спеціалістів, що 4 роки успішно займається освітою дітей у малорозвинутих селах та містах України.</p>
+                <button class="uppercase bg-techuablue text-white py-4 px-9 mt-24">Cтати учасником</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
